@@ -57,8 +57,8 @@ class Login extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Text('Let\'s sing your in !!!!!!',
-                style: TextStyle(fontSize: 30,
+                child: Text('Let\'s sing your in  Rina!!!!!!',
+                style: TextStyle(fontSize: 25,
                 color: Colors.brown,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1.3            ),
@@ -74,8 +74,11 @@ class Login extends StatelessWidget {
               color: Colors.blue,
               
               fontWeight: FontWeight.bold),
+              
               ),
-                       Image.network('https://cdn-icons-png.flaticon.com/128/10/10522.png',height: 150,),
+              SizedBox(height: 10,),
+                       Image.network('https://cdn-icons-png.flaticon.com/512/456/456212.png',height: 100,),
+                       SizedBox(height: 10,),
 
                        Form(
                         key: _formkey,
